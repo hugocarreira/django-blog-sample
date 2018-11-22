@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Blog Django Sample</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="/">Blog Django Sample</a></h1>
+        </div>
+        <div>
+            <p>
+                <a href="{% url 'post_new' %}">Write Post</a>
+            </p>
+        </div>
+        {% block content %}
+        {% endblock %}
+
+    </body>
+</html>
