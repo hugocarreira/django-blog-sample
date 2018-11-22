@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'plusjob.urls'
+ROOT_URLCONF = 'django-blog.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'plusjob.wsgi.application'
+WSGI_APPLICATION = 'django-blog.wsgi.application'
 
 
 # Database

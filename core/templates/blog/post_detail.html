@@ -6,5 +6,6 @@
         <div>Publicado em: {{ post.published_date }} por {{ post.author }}</div>
         <p>{{ post.text|linebreaksbr }}</p>
         <a href="{% url 'post_edit' pk=post.pk %}"><span>Edit</span></a>
+        <a href="{% url 'post_delete' pk=post.pk %}"><span>Delete</span></a>
     </div>
 {% endblock %}
